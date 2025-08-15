@@ -153,7 +153,7 @@ const handleGoogleSetCookie = (req, res) => {
     sameSite: "none",
   });
 
-  res.redirect("https://hospi-go-app.onrender.com/oauth-google");
+  res.redirect("http://localhost:5173/oauth-google");
 };
 
 module.exports = {
