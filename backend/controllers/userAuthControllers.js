@@ -9,6 +9,8 @@ const passport = require("passport");
 const path = require("path");
 require("../authentication/google");
 
+const frontend_url = process.env.FRONTEND_URL;
+
 const handleUserSignup = async (req, res) => {
   const { username, email, password } = req.body;
   try {
@@ -153,7 +155,7 @@ const handleGoogleSetCookie = (req, res) => {
     sameSite: "none",
   });
 
-  res.redirect("http://localhost:5173/oauth-google");
+  res.redirect(`${frontend_url}/oauth-google`);
 };
 
 module.exports = {
