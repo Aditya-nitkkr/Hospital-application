@@ -16,12 +16,8 @@ const path = require("path");
 const { errorMiddleWare } = require("./middleWares/error-middleware");
 const frontend_url = process.env.FRONTEND_URL;
 
-app.use(
-  cors({
-    origin: frontend_url,
-    credentials: true,
-  })
-);
+app.use(cors());
+
 app.use(
   session({
     secret: "mysecret",
