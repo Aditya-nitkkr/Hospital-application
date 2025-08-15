@@ -104,8 +104,8 @@ const handleUserLogin = async (req, res) => {
     res
       .cookie("LoggedInToken", token, {
         httpOnly: true,
-        secure: false,
-        sameSite: "Lax",
+        secure: "true",
+        sameSite: "none",
       })
       .status(200)
       .json({

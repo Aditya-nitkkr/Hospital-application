@@ -6,7 +6,7 @@ const initialGoogleAuth = passport.authenticate("google", {
 });
 
 const handleGoogleAuthCallback = passport.authenticate("google", {
-  session: false,
+  session: true,
   failureRedirect: "/auth/signup",
 });
 
