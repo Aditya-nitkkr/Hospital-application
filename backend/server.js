@@ -14,11 +14,10 @@ const URL = process.env.MONGO_URL;
 const cors = require("cors");
 const path = require("path");
 const { errorMiddleWare } = require("./middleWares/error-middleware");
-const frontend_url = process.env.FRONTEND_URL;
 
 app.use(
   cors({
-    origin: frontend_url,
+    origin: "https://hospi-go-app.onrender.com",
     credentials: true,
   })
 );
