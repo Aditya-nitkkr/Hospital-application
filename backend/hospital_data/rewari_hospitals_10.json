@@ -1,10 +1,9 @@
-
 [
   {
     "id": "HSP1001",
     "name": "Apollo Hospital",
-    "email" :"apollo1001@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital01.jpg",
+    "email": "apollo1001@gmail.com",
+    "image": "/images/hospital01.jpg",
     "location": {
       "lat": 28.5672,
       "lng": 77.21,
@@ -23,7 +22,12 @@
     },
     "details": {
       "description": "Apollo Hospital in Rewari is a premier multi-specialty facility offering advanced treatments in cardiology and dermatology, with state-of-the-art diagnostic and surgical services.",
-      "services": ["Cardiology", "Dermatology", "Emergency Care", "Diagnostic Imaging"],
+      "services": [
+        "Cardiology",
+        "Dermatology",
+        "Emergency Care",
+        "Diagnostic Imaging"
+      ],
       "emergency_services": [
         {
           "name": "24/7 Emergency Room",
@@ -48,7 +52,7 @@
         "id": "DR101",
         "name": "Dr. Rakesh Verma",
         "specialization": "Cardiologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:00 AM", "02:00 PM", "04:30 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "rverma@apollo.in",
@@ -59,7 +63,7 @@
         "id": "DR101B",
         "name": "Dr. Meena Joshi",
         "specialization": "Dermatologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_women.jpg",
+        "photo": "/images/doctor_women.jpg",
         "slots": ["11:00 AM", "01:00 PM", "03:30 PM"],
         "opdTime": "11:00 AM - 04:00 PM",
         "email": "mjoshi@apollo.in",
@@ -71,8 +75,8 @@
   {
     "id": "HSP1002",
     "name": "Fortis Hospital",
-    "email" :"fortis1002@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital02.jpg",
+    "email": "fortis1002@gmail.com",
+    "image": "/images/hospital02.jpg",
     "location": {
       "lat": 28.4595,
       "lng": 77.0266,
@@ -116,7 +120,7 @@
         "id": "DR102",
         "name": "Dr. Meenal Jain",
         "specialization": "Neurologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["09:00 AM", "11:30 AM", "05:00 PM"],
         "opdTime": "09:00 AM - 06:00 PM",
         "email": "mjain@fortis.in",
@@ -126,7 +130,7 @@
         "id": "DR102B",
         "name": "Dr. Arjun Sen",
         "specialization": "Endocrinologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:30 AM", "12:30 PM", "04:30 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "asen@fortis.in",
@@ -137,8 +141,8 @@
   {
     "id": "HSP1003",
     "name": "Max Super Speciality Hospital",
-    "email" :"maxsuper1003@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital03.jpg",
+    "email": "maxsuper1003@gmail.com",
+    "image": "/images/hospital03.jpg",
     "location": {
       "lat": 28.685,
       "lng": 77.2365,
@@ -157,7 +161,12 @@
     },
     "details": {
       "description": "Max Super Speciality Hospital is renowned for its pediatric and orthopedic care, offering advanced surgical and diagnostic services in Rewari.",
-      "services": ["Pediatrics", "Orthopedics", "Radiology", "Emergency Services"],
+      "services": [
+        "Pediatrics",
+        "Orthopedics",
+        "Radiology",
+        "Emergency Services"
+      ],
       "emergency_services": [
         {
           "name": "24/7 Emergency Room",
@@ -182,7 +191,7 @@
         "id": "DR103",
         "name": "Dr. Priya Nair",
         "specialization": "Pediatrician",
-        "photo": "https://hospi-go.onrender.com/images/doctor_women.jpg",
+        "photo": "/images/doctor_women.jpg",
         "slots": ["09:00 AM", "12:00 PM", "03:00 PM"],
         "opdTime": "09:00 AM - 04:00 PM",
         "email": "pnair@max.in",
@@ -192,7 +201,7 @@
         "id": "DR103B",
         "name": "Dr. Karan Malik",
         "specialization": "Orthopedic",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:00 AM", "01:00 PM", "05:00 PM"],
         "opdTime": "10:00 AM - 06:00 PM",
         "email": "kmalik@max.in",
@@ -203,8 +212,8 @@
   {
     "id": "HSP1004",
     "name": "Medanta Hospital",
-    "email" :"medanta@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital04.jpg",
+    "email": "medanta@gmail.com",
+    "image": "/images/hospital04.jpg",
     "location": {
       "lat": 28.640808,
       "lng": 77.726169,
@@ -223,7 +232,12 @@
     },
     "details": {
       "description": "Medanta Hospital specializes in orthopedic and general medical care, providing high-quality healthcare with advanced medical technology.",
-      "services": ["Orthopedics", "General Medicine", "Pathology", "Ambulance Services"],
+      "services": [
+        "Orthopedics",
+        "General Medicine",
+        "Pathology",
+        "Ambulance Services"
+      ],
       "emergency_services": [
         {
           "name": "24/7 Emergency Room",
@@ -248,7 +262,7 @@
         "id": "DR103A",
         "name": "Dr. Sanjay Yadav",
         "specialization": "Orthopedic",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "syadav@hospital.in",
@@ -258,7 +272,7 @@
         "id": "DR103B",
         "name": "Dr. Neha Sharma",
         "specialization": "General Physician",
-        "photo": "https://hospi-go.onrender.com/images/doctor_women.jpg",
+        "photo": "/images/doctor_women.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "nsharma@hospital.in",
@@ -269,8 +283,8 @@
   {
     "id": "HSP1005",
     "name": "Park Hospital",
-    "email" :"park1005@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital05.jpg",
+    "email": "park1005@gmail.com",
+    "image": "/images/hospital05.jpg",
     "location": {
       "lat": 29.221837,
       "lng": 77.707956,
@@ -289,7 +303,12 @@
     },
     "details": {
       "description": "Park Hospital offers specialized pediatric and dermatology services, focusing on patient-centric care with modern medical facilities.",
-      "services": ["Pediatrics", "Dermatology", "Outpatient Care", "Diagnostics"],
+      "services": [
+        "Pediatrics",
+        "Dermatology",
+        "Outpatient Care",
+        "Diagnostics"
+      ],
       "emergency_services": [
         {
           "name": "24/7 Emergency Room",
@@ -314,7 +333,7 @@
         "id": "DR104A",
         "name": "Dr. Anjali Mehra",
         "specialization": "Pediatrician",
-        "photo": "https://hospi-go.onrender.com/images/doctor_women.jpg",
+        "photo": "/images/doctor_women.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "amehra@hospital.in",
@@ -324,7 +343,7 @@
         "id": "DR104B",
         "name": "Dr. Vikrant Rao",
         "specialization": "Dermatologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "vrao@hospital.in",
@@ -335,8 +354,8 @@
   {
     "id": "HSP1006",
     "name": "Metro Hospital",
-    "email" :"metro1006@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital06.jpg",
+    "email": "metro1006@gmail.com",
+    "image": "/images/hospital06.jpg",
     "location": {
       "lat": 29.032894,
       "lng": 76.960925,
@@ -355,7 +374,12 @@
     },
     "details": {
       "description": "Metro Hospital provides advanced neurological and pediatric care, equipped with cutting-edge diagnostic tools and emergency services.",
-      "services": ["Neurology", "Pediatrics", "Emergency Care", "Surgical Services"],
+      "services": [
+        "Neurology",
+        "Pediatrics",
+        "Emergency Care",
+        "Surgical Services"
+      ],
       "emergency_services": [
         {
           "name": "24/7 Emergency Room",
@@ -380,7 +404,7 @@
         "id": "DR105A",
         "name": "Dr. Rohan Gupta",
         "specialization": "Neurologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "rgupta@hospital.in",
@@ -390,7 +414,7 @@
         "id": "DR105B",
         "name": "Dr. Shalini Kapoor",
         "specialization": "Pediatrician",
-        "photo": "https://hospi-go.onrender.com/images/doctor_women.jpg",
+        "photo": "/images/doctor_women.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "skapoor@hospital.in",
@@ -401,8 +425,8 @@
   {
     "id": "HSP1007",
     "name": "Columbia Asia",
-    "email" :"columbia1007@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital07.jpg",
+    "email": "columbia1007@gmail.com",
+    "image": "/images/hospital07.jpg",
     "location": {
       "lat": 29.014928,
       "lng": 77.177761,
@@ -421,7 +445,12 @@
     },
     "details": {
       "description": "Columbia Asia provides top-tier general medical and cardiology services, with a focus on patient comfort and cutting-edge treatments.",
-      "services": ["General Medicine", "Cardiology", "Diagnostics", "Ambulance Services"],
+      "services": [
+        "General Medicine",
+        "Cardiology",
+        "Diagnostics",
+        "Ambulance Services"
+      ],
       "emergency_services": [
         {
           "name": "24/7 Emergency Room",
@@ -446,7 +475,7 @@
         "id": "DR106A",
         "name": "Dr. Anil Sharma",
         "specialization": "General Physician",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "asharma@hospital.in",
@@ -456,7 +485,7 @@
         "id": "DR106B",
         "name": "Dr. Preeti Malik",
         "specialization": "Cardiologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_women.jpg",
+        "photo": "/images/doctor_women.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "pmalik@hospital.in",
@@ -467,8 +496,8 @@
   {
     "id": "HSP1008",
     "name": "Paras Hospital",
-    "email" :"paras1008@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital08.jpg",
+    "email": "paras1008@gmail.com",
+    "image": "/images/hospital08.jpg",
     "location": {
       "lat": 29.437062,
       "lng": 76.968284,
@@ -487,7 +516,12 @@
     },
     "details": {
       "description": "Paras Hospital excels in dermatology and neurology, offering specialized treatments and advanced medical care in Rewari.",
-      "services": ["Dermatology", "Neurology", "Outpatient Services", "Radiology"],
+      "services": [
+        "Dermatology",
+        "Neurology",
+        "Outpatient Services",
+        "Radiology"
+      ],
       "emergency_services": [
         {
           "name": "24/7 Emergency Room",
@@ -512,7 +546,7 @@
         "id": "DR107A",
         "name": "Dr. Kiran Desai",
         "specialization": "Dermatologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_women.jpg",
+        "photo": "/images/doctor_women.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "kdesai@hospital.in",
@@ -522,7 +556,7 @@
         "id": "DR107B",
         "name": "Dr. Vivek Singh",
         "specialization": "Neurologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "vsingh@hospital.in",
@@ -533,8 +567,8 @@
   {
     "id": "HSP1009",
     "name": "BLK Hospital",
-    "email" :"blk1009@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital09.jpg",
+    "email": "blk1009@gmail.com",
+    "image": "/images/hospital09.jpg",
     "location": {
       "lat": 28.513426,
       "lng": 77.865576,
@@ -553,7 +587,12 @@
     },
     "details": {
       "description": "BLK Hospital is known for its expertise in dermatology and neurology, providing comprehensive care with modern diagnostic facilities.",
-      "services": ["Dermatology", "Neurology", "Emergency Services", "Pathology"],
+      "services": [
+        "Dermatology",
+        "Neurology",
+        "Emergency Services",
+        "Pathology"
+      ],
       "emergency_services": [
         {
           "name": "24/7 Emergency Room",
@@ -578,7 +617,7 @@
         "id": "DR108A",
         "name": "Dr. Swati Verma",
         "specialization": "Dermatologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_women.jpg",
+        "photo": "/images/doctor_women.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "sverma@hospital.in",
@@ -588,7 +627,7 @@
         "id": "DR108B",
         "name": "Dr. Rahul Mehra",
         "specialization": "Neurologist",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "rmehra@hospital.in",
@@ -599,8 +638,8 @@
   {
     "id": "HSP1010",
     "name": "Primus Super Speciality",
-    "email" :"primus1010@gmail.com",
-    "image": "https://hospi-go.onrender.com/images/hospital10.jpg",
+    "email": "primus1010@gmail.com",
+    "image": "/images/hospital10.jpg",
     "location": {
       "lat": 29.007864,
       "lng": 77.57284,
@@ -619,7 +658,12 @@
     },
     "details": {
       "description": "Primus Super Speciality Hospital offers expert pediatric and general medical care, with a focus on advanced diagnostics and patient care.",
-      "services": ["Pediatrics", "General Medicine", "Radiology", "Emergency Care"],
+      "services": [
+        "Pediatrics",
+        "General Medicine",
+        "Radiology",
+        "Emergency Care"
+      ],
       "emergency_services": [
         {
           "name": "24/7 Emergency Room",
@@ -644,7 +688,7 @@
         "id": "DR109A",
         "name": "Dr. Aarti Kapoor",
         "specialization": "Pediatrician",
-        "photo": "https://hospi-go.onrender.com/images/doctor_women.jpg",
+        "photo": "/images/doctor_women.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "akapoor@hospital.in",
@@ -654,7 +698,7 @@
         "id": "DR109B",
         "name": "Dr. Manish Gupta",
         "specialization": "General Physician",
-        "photo": "https://hospi-go.onrender.com/images/doctor_men.jpg",
+        "photo": "/images/doctor_men.jpg",
         "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
         "opdTime": "10:00 AM - 05:00 PM",
         "email": "mgupta@hospital.in",
