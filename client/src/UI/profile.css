@@ -203,10 +203,15 @@
 @media (max-width:600px) {
     .main-container {
         flex-direction: column;
+
+        &ul {
+            gap: 2rem;
+        }
     }
 
     .profile-container-main {
         text-align: center;
+
     }
 
     .profile-list {
