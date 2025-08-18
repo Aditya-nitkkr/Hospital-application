@@ -147,6 +147,8 @@ const handleAuth = (req, res) => {
 };
 
 const handleGoogleSetCookie = (req, res) => {
+  if (!req.user)
+    return res.redirect(`${frontend_url}/login?error=missing-user`);
   const token = generateToken(req.user);
 
   res.cookie("LoggedInToken", token, {
@@ -154,6 +156,10 @@ const handleGoogleSetCookie = (req, res) => {
     secure: true,
     sameSite: "none",
   });
+  
+  if (!frontend_url) {
+    return res.status(500).send("frontend_url not set");
+  }
 
   res.redirect(`${frontend_url}/oauth-google`);
 };
