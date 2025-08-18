@@ -51,8 +51,8 @@ const handleUserSignup = async (req, res) => {
     res
       .cookie("LoggedInToken", token, {
         httpOnly: true,
-        secure: false,
-        sameSite: "Lax",
+        secure: true,
+        sameSite: "none",
       })
       .status(201)
       .json({
@@ -104,7 +104,7 @@ const handleUserLogin = async (req, res) => {
     res
       .cookie("LoggedInToken", token, {
         httpOnly: true,
-        secure: "true",
+        secure: true,
         sameSite: "none",
       })
       .status(200)
@@ -156,7 +156,7 @@ const handleGoogleSetCookie = (req, res) => {
     secure: true,
     sameSite: "none",
   });
-  
+
   if (!frontend_url) {
     return res.status(500).send("frontend_url not set");
   }
