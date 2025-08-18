@@ -120,8 +120,8 @@ footer {
 @media (max-width:600px) {
     .contact-card {
         top: -6rem;
-        left: 8vw;
-        width: 38rem;
+        left: 2rem;
+        width: 70vw;
     }
 
     .get-started-btn {
