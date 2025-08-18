@@ -22,7 +22,9 @@ const handleSaveAppointment = async (req, res) => {
     await newAppointment.save();
     // console.log(newAppointment);
 
-    return res.json({ message: "Successfully made an Appointment" });
+    return res
+      .status(200)
+      .json({ message: "Successfully made an Appointment" });
   } catch (error) {
     console.error(error);
     return res.json({ message: "Failed to make appointment" });

@@ -4,6 +4,7 @@ import "./AppointmentModal.css";
 import ReactDOM from "react-dom";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { useAuth } from "../context/AuthContext";
+import { toast } from "react-toastify";
 
 const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
@@ -58,11 +59,42 @@ export const AppointmentModal = ({ closeModal, doctor, hospital }) => {
         event.preventDefault();
 
 
-        // console.log(printData);
-
         try {
             const res = await axios.post(`${backendUrl}/api/appointments/create`, printData, { withCredentials: true })
             // console.log(res.data.message);
+            if (res.status === 200) {
+                toast.success(res.data.message, {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: false,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
+
+                setPrintData({
+                    firstName: "",
+                    middleName: "",
+                    lastName: "",
+                    relation: "",
+                    mobile: "",
+                    mobile2: "",
+                    email: `${userRegister.email}`,
+                    address: "",
+                    age: "",
+                    gender: "",
+                    appointmentDate: "",
+                    dateOfBirth: "",
+                    selectSlot: "Not selected",
+                    reason: "",
+                    hospitalId: `${hospital.id}`,
+                    doctorId: `${doctor.id}`,
+                    hospitalEmail: `${hospital.email}`
+                })
+            }
+
         } catch (error) {
             console.log(error);
         }
