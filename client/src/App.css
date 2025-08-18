@@ -125,7 +125,7 @@ a {
 
 @media (max-width :1030px) {
     .container {
-        width: 85rem;
+        width: 90vw;
     }
 
     .hero-section {
@@ -235,7 +235,7 @@ a {
     }
 
     .container {
-        width: 60rem;
+        width: 90vw;
     }
 
     .hero-section {
@@ -348,7 +348,7 @@ a {
     }
 
     .container {
-        width: 45rem;
+        width: 90vw;
     }
 
     .hero-section {
@@ -372,6 +372,7 @@ a {
         & ul {
             display: none;
         }
+
         padding: 2rem 2rem;
     }
 
